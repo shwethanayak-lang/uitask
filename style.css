@@ -68,14 +68,17 @@ padding:20px 176px;
   text-align:center;
 }
 
-
 /* Responsive */
 @media only screen and (min-width:320px) and  (max-width:425px){
 
  .header__menu ul{
-display: inline;
-
+float:right;
+padding-top: 10px;
   } 
+  .header__menu ul li{
+    padding-left: 10px;
+    font-size: 10px; 
+  }
 
   .bgimg img{
     width:330%;
@@ -85,7 +88,6 @@ display: inline;
 .table th,.table__content--active th{
       padding:20px 147px;
       } 
-
   .tableinfo td{
     font-size:15px;
   }
@@ -98,15 +100,13 @@ display: inline;
 
 }
 
-
-
 @media only screen and (min-width:425px) and  (max-width:768px){
   .header__menu ul{
  float:right;
       } 
 
   .bgimg img{
-    width:130%;
+    width:150%;
    margin-left:30px;
   }
   .table th,.table__content--active th{
